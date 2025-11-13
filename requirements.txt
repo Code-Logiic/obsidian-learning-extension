@@ -1,5 +1,7 @@
 # MCP Server SDK
 mcp>=1.0.0
 
-# No additional dependencies needed for now
-# Can add later: numpy, pandas, scikit-learn for ML features
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0

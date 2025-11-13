@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:code.claude.com)",
       "Bash(npx @anthropic-ai/mcp-builder:*)",
-      "Bash(npx @modelcontextprotocol/inspector:*)"
+      "Bash(npx @modelcontextprotocol/inspector:*)",
+      "Bash(python3:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

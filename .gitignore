@@ -51,4 +51,7 @@ test_mcp_tools.py
 # Testing
 .pytest_cache/
 .coverage
+coverage.xml
 htmlcov/
+*.pyc
+__pycache__/
