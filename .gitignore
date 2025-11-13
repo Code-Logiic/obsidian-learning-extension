@@ -23,9 +23,12 @@ wheels/
 .installed.cfg
 *.egg
 
-# Data files (contains user progress)
-data/
-*.json
+# User data files (contains personal learning progress)
+data/*.json
+
+# Testing artifacts
+TEST_RESULTS.md
+test_mcp_tools.py
 
 # IDE
 .vscode/
