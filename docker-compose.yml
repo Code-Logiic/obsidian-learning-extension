@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  learning-extension:
+    build: .
+    image: obsidian-learning-extension:latest
+    container_name: obsidian-learning
+    
+    volumes:
+      # Persistent data storage
+      - ./data:/data:rw
+    
+    environment:
+      - DATA_PATH=/data
+    
+    # Keep container running for stdio communication
+    stdin_open: true
+    tty: true
+    
+    restart: unless-stopped

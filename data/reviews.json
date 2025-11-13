@@ -1,0 +1,32 @@
+{
+  "reviews": [
+    {
+      "id": "rv_57932cd0",
+      "topic": "Docker Networking",
+      "note_path": "Software Development/Docker for MCP.md",
+      "created_at": "2025-11-13T08:26:08.996601",
+      "next_review": "2025-11-14T08:26:08.996364",
+      "interval_days": 1,
+      "repetitions": 0,
+      "ease_factor": 2.5
+    },
+    {
+      "id": "rv_5b2ac84d",
+      "topic": "MCP Protocol Basics",
+      "note_path": "Software Development/MCP Servers.md",
+      "created_at": "2025-11-13T08:29:08.767393",
+      "next_review": "2025-11-14T08:31:48.682222",
+      "interval_days": 1,
+      "repetitions": 1,
+      "ease_factor": 2.5,
+      "last_performance": "strong",
+      "review_notes": [
+        {
+          "timestamp": "2025-11-13T08:31:48.682306",
+          "performance": "strong",
+          "notes": "Remembered client-server architecture clearly, needed to review tool schema format"
+        }
+      ]
+    }
+  ]
+}

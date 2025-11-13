@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "id": "pr_2e39065f",
+      "topic": "Docker Networking",
+      "activity": "Studied bridge network basics and tested with containers",
+      "duration_minutes": 45,
+      "mastery_rating": 7,
+      "challenge_id": "ch_aba8bab1",
+      "notes": "Good understanding of bridge networks, need to practice overlay networks more",
+      "timestamp": "2025-11-13T08:24:49.075456"
+    }
+  ]
+}
